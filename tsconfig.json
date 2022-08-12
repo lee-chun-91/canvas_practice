@@ -1,0 +1,13 @@
+// TypeScript는 어떤 파일을 포함하고,
+// 어떤 종류의 체크가 수행되어야 하는지와 같은 프로젝트 옵션을 관리하기 위해,
+// tsconfig.json이라 불리는 파일을 사용합니다.
+
+{
+  "compilerOptions": {
+    "target": "es5",
+    "sourceMap": true,
+    "lib": ["es5", "dom"],
+    "noUnusedLocals": true,
+    "module": "commonjs"
+  }
+}
