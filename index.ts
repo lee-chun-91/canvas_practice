@@ -1,3 +1,5 @@
+//https://kernhanda.github.io/tutorial-typescript-canvas-drawing/
+
 class DrawingApp {
   private canvas: HTMLCanvasElement;
   private context: CanvasRenderingContext2D;
